@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="ExamenHibernateAna">
+ <class name="Contacto" table="Contacto">
+        <id name="id" column="id"> 
+        <generator class="increment"/> 
+        </id>
+        <property name="nombre" type="string"/>
+        <property name="apellido" type="string"/>
+</class>
+</hibernate-mapping>
